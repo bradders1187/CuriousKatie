@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDE04A6022B94AD70096BF03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE04A5F22B94AD70096BF03 /* AppDelegate.swift */; };
+		DDE04A6222B94AD70096BF03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE04A6122B94AD70096BF03 /* ViewController.swift */; };
+		DDE04A6522B94AD70096BF03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE04A6322B94AD70096BF03 /* Main.storyboard */; };
+		DDE04A6722B94AD90096BF03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE04A6622B94AD90096BF03 /* Assets.xcassets */; };
+		DDE04A6A22B94AD90096BF03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE04A6822B94AD90096BF03 /* LaunchScreen.storyboard */; };
+		DDE04A7522B94AD90096BF03 /* Curious_KatieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE04A7422B94AD90096BF03 /* Curious_KatieTests.swift */; };
+		DDE04A8022B94AD90096BF03 /* Curious_KatieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE04A7F22B94AD90096BF03 /* Curious_KatieUITests.swift */; };
+		DDE04A8E22C624890096BF03 /* Interests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE04A8D22C624890096BF03 /* Interests.swift */; };
+		DDE04A9022C624B20096BF03 /* Participants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE04A8F22C624B20096BF03 /* Participants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDE04A7122B94AD90096BF03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDE04A5422B94AD70096BF03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDE04A5B22B94AD70096BF03;
+			remoteInfo = "Curious Katie";
+		};
+		DDE04A7C22B94AD90096BF03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDE04A5422B94AD70096BF03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDE04A5B22B94AD70096BF03;
+			remoteInfo = "Curious Katie";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDE04A5C22B94AD70096BF03 /* Curious Katie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Curious Katie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE04A5F22B94AD70096BF03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDE04A6122B94AD70096BF03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDE04A6422B94AD70096BF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDE04A6622B94AD90096BF03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDE04A6922B94AD90096BF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDE04A6B22B94AD90096BF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE04A7022B94AD90096BF03 /* Curious KatieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Curious KatieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE04A7422B94AD90096BF03 /* Curious_KatieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curious_KatieTests.swift; sourceTree = "<group>"; };
+		DDE04A7622B94AD90096BF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE04A7B22B94AD90096BF03 /* Curious KatieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Curious KatieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE04A7F22B94AD90096BF03 /* Curious_KatieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curious_KatieUITests.swift; sourceTree = "<group>"; };
+		DDE04A8122B94AD90096BF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE04A8D22C624890096BF03 /* Interests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interests.swift; sourceTree = "<group>"; };
+		DDE04A8F22C624B20096BF03 /* Participants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Participants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDE04A5922B94AD70096BF03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE04A6D22B94AD90096BF03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE04A7822B94AD90096BF03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDE04A5322B94AD70096BF03 = {
+			isa = PBXGroup;
+			children = (
+				DDE04A5E22B94AD70096BF03 /* Curious Katie */,
+				DDE04A7322B94AD90096BF03 /* Curious KatieTests */,
+				DDE04A7E22B94AD90096BF03 /* Curious KatieUITests */,
+				DDE04A5D22B94AD70096BF03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDE04A5D22B94AD70096BF03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDE04A5C22B94AD70096BF03 /* Curious Katie.app */,
+				DDE04A7022B94AD90096BF03 /* Curious KatieTests.xctest */,
+				DDE04A7B22B94AD90096BF03 /* Curious KatieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDE04A5E22B94AD70096BF03 /* Curious Katie */ = {
+			isa = PBXGroup;
+			children = (
+				DDE04A5F22B94AD70096BF03 /* AppDelegate.swift */,
+				DDE04A6122B94AD70096BF03 /* ViewController.swift */,
+				DDE04A9122CA33AB0096BF03 /* Models */,
+				DDE04A6322B94AD70096BF03 /* Main.storyboard */,
+				DDE04A6622B94AD90096BF03 /* Assets.xcassets */,
+				DDE04A6822B94AD90096BF03 /* LaunchScreen.storyboard */,
+				DDE04A6B22B94AD90096BF03 /* Info.plist */,
+			);
+			path = "Curious Katie";
+			sourceTree = "<group>";
+		};
+		DDE04A7322B94AD90096BF03 /* Curious KatieTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDE04A7422B94AD90096BF03 /* Curious_KatieTests.swift */,
+				DDE04A7622B94AD90096BF03 /* Info.plist */,
+			);
+			path = "Curious KatieTests";
+			sourceTree = "<group>";
+		};
+		DDE04A7E22B94AD90096BF03 /* Curious KatieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDE04A7F22B94AD90096BF03 /* Curious_KatieUITests.swift */,
+				DDE04A8122B94AD90096BF03 /* Info.plist */,
+			);
+			path = "Curious KatieUITests";
+			sourceTree = "<group>";
+		};
+		DDE04A9122CA33AB0096BF03 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DDE04A8F22C624B20096BF03 /* Participants.swift */,
+				DDE04A8D22C624890096BF03 /* Interests.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDE04A5B22B94AD70096BF03 /* Curious Katie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE04A8422B94AD90096BF03 /* Build configuration list for PBXNativeTarget "Curious Katie" */;
+			buildPhases = (
+				DDE04A5822B94AD70096BF03 /* Sources */,
+				DDE04A5922B94AD70096BF03 /* Frameworks */,
+				DDE04A5A22B94AD70096BF03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Curious Katie";
+			productName = "Curious Katie";
+			productReference = DDE04A5C22B94AD70096BF03 /* Curious Katie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDE04A6F22B94AD90096BF03 /* Curious KatieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE04A8722B94AD90096BF03 /* Build configuration list for PBXNativeTarget "Curious KatieTests" */;
+			buildPhases = (
+				DDE04A6C22B94AD90096BF03 /* Sources */,
+				DDE04A6D22B94AD90096BF03 /* Frameworks */,
+				DDE04A6E22B94AD90096BF03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE04A7222B94AD90096BF03 /* PBXTargetDependency */,
+			);
+			name = "Curious KatieTests";
+			productName = "Curious KatieTests";
+			productReference = DDE04A7022B94AD90096BF03 /* Curious KatieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDE04A7A22B94AD90096BF03 /* Curious KatieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE04A8A22B94AD90096BF03 /* Build configuration list for PBXNativeTarget "Curious KatieUITests" */;
+			buildPhases = (
+				DDE04A7722B94AD90096BF03 /* Sources */,
+				DDE04A7822B94AD90096BF03 /* Frameworks */,
+				DDE04A7922B94AD90096BF03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE04A7D22B94AD90096BF03 /* PBXTargetDependency */,
+			);
+			name = "Curious KatieUITests";
+			productName = "Curious KatieUITests";
+			productReference = DDE04A7B22B94AD90096BF03 /* Curious KatieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDE04A5422B94AD70096BF03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Peter Bradtke";
+				TargetAttributes = {
+					DDE04A5B22B94AD70096BF03 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					DDE04A6F22B94AD90096BF03 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = DDE04A5B22B94AD70096BF03;
+					};
+					DDE04A7A22B94AD90096BF03 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = DDE04A5B22B94AD70096BF03;
+					};
+				};
+			};
+			buildConfigurationList = DDE04A5722B94AD70096BF03 /* Build configuration list for PBXProject "Curious Katie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDE04A5322B94AD70096BF03;
+			productRefGroup = DDE04A5D22B94AD70096BF03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDE04A5B22B94AD70096BF03 /* Curious Katie */,
+				DDE04A6F22B94AD90096BF03 /* Curious KatieTests */,
+				DDE04A7A22B94AD90096BF03 /* Curious KatieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDE04A5A22B94AD70096BF03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE04A6A22B94AD90096BF03 /* LaunchScreen.storyboard in Resources */,
+				DDE04A6722B94AD90096BF03 /* Assets.xcassets in Resources */,
+				DDE04A6522B94AD70096BF03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE04A6E22B94AD90096BF03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE04A7922B94AD90096BF03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDE04A5822B94AD70096BF03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE04A8E22C624890096BF03 /* Interests.swift in Sources */,
+				DDE04A6222B94AD70096BF03 /* ViewController.swift in Sources */,
+				DDE04A6022B94AD70096BF03 /* AppDelegate.swift in Sources */,
+				DDE04A9022C624B20096BF03 /* Participants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE04A6C22B94AD90096BF03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE04A7522B94AD90096BF03 /* Curious_KatieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE04A7722B94AD90096BF03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE04A8022B94AD90096BF03 /* Curious_KatieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDE04A7222B94AD90096BF03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDE04A5B22B94AD70096BF03 /* Curious Katie */;
+			targetProxy = DDE04A7122B94AD90096BF03 /* PBXContainerItemProxy */;
+		};
+		DDE04A7D22B94AD90096BF03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDE04A5B22B94AD70096BF03 /* Curious Katie */;
+			targetProxy = DDE04A7C22B94AD90096BF03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDE04A6322B94AD70096BF03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDE04A6422B94AD70096BF03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDE04A6822B94AD90096BF03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDE04A6922B94AD90096BF03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDE04A8222B94AD90096BF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDE04A8322B94AD90096BF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDE04A8522B94AD90096BF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Curious Katie/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "peterbradtke.Curious-Katie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDE04A8622B94AD90096BF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Curious Katie/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "peterbradtke.Curious-Katie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDE04A8822B94AD90096BF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Curious KatieTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "peterbradtke.Curious-KatieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Curious Katie.app/Curious Katie";
+			};
+			name = Debug;
+		};
+		DDE04A8922B94AD90096BF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Curious KatieTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "peterbradtke.Curious-KatieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Curious Katie.app/Curious Katie";
+			};
+			name = Release;
+		};
+		DDE04A8B22B94AD90096BF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Curious KatieUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "peterbradtke.Curious-KatieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Curious Katie";
+			};
+			name = Debug;
+		};
+		DDE04A8C22B94AD90096BF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Curious KatieUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "peterbradtke.Curious-KatieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Curious Katie";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDE04A5722B94AD70096BF03 /* Build configuration list for PBXProject "Curious Katie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE04A8222B94AD90096BF03 /* Debug */,
+				DDE04A8322B94AD90096BF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE04A8422B94AD90096BF03 /* Build configuration list for PBXNativeTarget "Curious Katie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE04A8522B94AD90096BF03 /* Debug */,
+				DDE04A8622B94AD90096BF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE04A8722B94AD90096BF03 /* Build configuration list for PBXNativeTarget "Curious KatieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE04A8822B94AD90096BF03 /* Debug */,
+				DDE04A8922B94AD90096BF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE04A8A22B94AD90096BF03 /* Build configuration list for PBXNativeTarget "Curious KatieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE04A8B22B94AD90096BF03 /* Debug */,
+				DDE04A8C22B94AD90096BF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDE04A5422B94AD70096BF03 /* Project object */;
+}
